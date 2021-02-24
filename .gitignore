@@ -1,11 +1,14 @@
 .idea/
 .gradle/
 bin/
-build/
 config/
 logs/
 run/
 saves/
+
+# ignore all subfolders in the build/ directory except for build/libs/
+build/*
+!build/libs/
 
 /usercache.json
 /usernamecache.json
