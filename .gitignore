@@ -1,0 +1,11 @@
+.idea/
+.gradle/
+bin/
+build/
+config/
+logs/
+run/
+saves/
+
+/usercache.json
+/usernamecache.json
